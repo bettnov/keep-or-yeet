@@ -43,7 +43,7 @@ MVP features:
 
 ## What technologies do I need
 
-- **React Native + Expo + TypeScript** – the app; the same foundation as in my Rastlinnik project.
+- **React Native + Expo + TypeScript** – the app; one codebase in React and TypeScript, with fast development and easy builds for Android.
 - **Expo development build** (not Expo Go) – Expo Go has limited gallery access on Android.
 - **expo-media-library** – listing albums, loading photos in batches, filtering by album and date.
 - **A small native Kotlin module (Expo config plugin)** – moving to trash and restoring via Android MediaStore (Android 11+); `expo-media-library` doesn't offer trash.
