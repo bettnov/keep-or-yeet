@@ -41,6 +41,17 @@ MVP features:
 | **Managing photos in Google Photos (cloud)**            | The app only sees and deletes what is physically on the phone.                       |
 | **Accounts, sync, social features**                     | The app is purely local and personal.                                                |
 
+## What phone features does the app need
+
+| Feature                                            | What for                                                                                                                                                                              |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Photo and video gallery (media storage)**        | Reading photos, videos, albums, dates and sizes; moving items to the trash and restoring them (needs the Android media read permission and the system confirmation dialog for deletion). |
+| **Touchscreen gestures**                           | Swiping cards left and right, tapping to select photos to restore.                                                                                                                    |
+| **Local storage (SQLite on the phone)**            | Saving decisions and progress so the cleanup can be paused and continued.                                                                                                             |
+| **Vibration / haptic feedback (optional)**         | A short vibration on swipe; a nice extra, not required.                                                                                                                               |
+
+Not needed: GPS, camera, gyroscope, microphone, internet connection.
+
 ## What technologies do I need
 
 - **React Native + Expo + TypeScript** – the app; one codebase in React and TypeScript, with fast development and easy builds for Android.
